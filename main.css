@@ -81,6 +81,11 @@
   color: #1bc894;
 }
 
+/* Change Color of Main Menu Hover */
+.nav-link:hover, .nav-link:active {
+  color: #00bdff !important;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

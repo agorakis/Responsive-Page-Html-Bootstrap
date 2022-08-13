@@ -90,7 +90,12 @@
         color: #1bc894;
     }
 
+    /* Change Color of Main Menu Hover */
+        
+    .nav-link:hover, .nav-link:active {
+        color: #00bdff !important;
+    }
+
     
-           
-  
+         
 @import "node_modules/bootstrap/scss/bootstrap";
