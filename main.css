@@ -58,7 +58,7 @@
   transform: rotate(45deg);
 }
 
-/* Fix Bug Class btn-dark */
+/* Fix Bug?? Class btn-dark */
 .btn-dark {
   color: #ffffff !important;
   background-color: #212529 !important;
@@ -69,6 +69,16 @@
   color: #eaeaea !important;
   background-color: #343a41 !important;
   border-color: #343a41 !important;
+}
+
+/* Change Color of Footer's Font Awesome Icons */
+.fa-color-footer {
+  color: #00bdff;
+}
+
+/* Change Color of Star Font Awesome Icons */
+.fa-color-green {
+  color: #1bc894;
 }
 
 /*!
