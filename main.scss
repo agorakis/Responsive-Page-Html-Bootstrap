@@ -1,9 +1,74 @@
 /* Replace Primary Color */
 
+    $primary: #00bdff;
+
     $theme-colors: (
-        "primary": #00bdff,
+        "primary": $primary,
         "info": #e0e1e1,
     );
+
+
+/* Main Menu Styling */
+
+    .mainmenu-style {
+        border-radius: 3px; 
+        background-image: linear-gradient(to right, rgb(20, 20, 20) , rgb(65, 65, 65));        
+    }
+
+/* Join Section Styling */
+
+.join-style {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) , rgb(246, 246, 246));        
+}
+
+/* Footer Menu Styling */
+
+.footermenu-style {
+    background-image: linear-gradient(to right, rgb(20, 20, 20) , rgb(65, 65, 65));        
+}
+
+
+/* Fix Bug?? Class btn-dark */
+    
+.btn-dark {
+    color: #ffffff !important;
+    background-color: #212529 !important;
+    border-color: #212529 !important
+}
+
+.btn-dark:hover {
+    color: #eaeaea !important;
+    background-color: #343a41 !important;
+    border-color: #343a41 !important
+}
+
+/* Change Color of Footer's Font Awesome Icons */
+
+.fa-color-footer {
+    color: $primary;
+}
+
+/* Change Color of Star Font Awesome Icons */
+
+.fa-color-green {
+    color: #1bc894;
+}
+
+/* Change Color of Main Menu Hover */
+    
+.nav-link:hover, .nav-link:active {
+    color: $primary !important;
+}
+
+/* Award Section Dafnes Background */
+
+.award-background {
+    background-image: url("./images/award-icon.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2px 5px;
+}
 
 /* Card Ribbon */
 
@@ -63,39 +128,6 @@
         top: 30px;
         transform: rotate(45deg);
     }
-
-    /* Fix Bug?? Class btn-dark */
-    
-    .btn-dark {
-        color: #ffffff !important;
-        background-color: #212529 !important;
-        border-color: #212529 !important
-    }
-    
-    .btn-dark:hover {
-        color: #eaeaea !important;
-        background-color: #343a41 !important;
-        border-color: #343a41 !important
-    }
-    
-    /* Change Color of Footer's Font Awesome Icons */
-
-    .fa-color-footer {
-        color: #00bdff;
-    }
-
-    /* Change Color of Star Font Awesome Icons */
-
-    .fa-color-green {
-        color: #1bc894;
-    }
-
-    /* Change Color of Main Menu Hover */
-        
-    .nav-link:hover, .nav-link:active {
-        color: #00bdff !important;
-    }
-
-    
+  
          
 @import "node_modules/bootstrap/scss/bootstrap";
